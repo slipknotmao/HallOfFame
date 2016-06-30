@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AC4AA55C474158DCDC4455E864CEA0EC1701CB03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AC4AA55C474158DCDC4455E864CEA0EC1701CB03" : 0,
+    "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "530877F7-BD1D-4164-8B74-452AD2FDC0B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AC4AA55C474158DCDC4455E864CEA0EC1701CB03" : "HallOfFame\/",
+    "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HallOfFame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HallOfFame\/HallOfFame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:slipknotmao\/HallOfFame.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AC4AA55C474158DCDC4455E864CEA0EC1701CB03"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:slipknotmao\/RiskTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B48CA8ED6691FCD4B1693D385F5ADFEC60E40567"
+    }
+  ]
+}
