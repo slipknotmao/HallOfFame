@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		436014FB1D24BFD000C3A17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436014FA1D24BFD000C3A17F /* main.m */; };
-		436014FE1D24BFD000C3A17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436014FD1D24BFD000C3A17F /* AppDelegate.m */; };
-		436015011D24BFD000C3A17F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436015001D24BFD000C3A17F /* ViewController.m */; };
-		436015041D24BFD000C3A17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436015021D24BFD000C3A17F /* Main.storyboard */; };
-		436015061D24BFD000C3A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436015051D24BFD000C3A17F /* Assets.xcassets */; };
-		436015091D24BFD000C3A17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436015071D24BFD000C3A17F /* LaunchScreen.storyboard */; };
 		436015141D24BFD000C3A17F /* HallOfFameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436015131D24BFD000C3A17F /* HallOfFameTests.m */; };
 		4360151F1D24BFD000C3A17F /* HallOfFameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4360151E1D24BFD000C3A17F /* HallOfFameUITests.m */; };
+		4360153C1D24F3EA00C3A17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4360152E1D24F3EA00C3A17F /* AppDelegate.m */; };
+		4360153D1D24F3EA00C3A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436015351D24F3EA00C3A17F /* Assets.xcassets */; };
+		4360153E1D24F3EA00C3A17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436015361D24F3EA00C3A17F /* LaunchScreen.storyboard */; };
+		4360153F1D24F3EA00C3A17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436015381D24F3EA00C3A17F /* Main.storyboard */; };
+		436015451D24F78B00C3A17F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 436015441D24F78B00C3A17F /* Info.plist */; };
 		8C9BF2033C3EB066395D5A6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F72FDA941F9C8D1873CA52 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,20 +40,20 @@
 		352A6B8987AEE3DDCF068CC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		436014F61D24BFD000C3A17F /* HallOfFame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallOfFame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436014FA1D24BFD000C3A17F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		436014FC1D24BFD000C3A17F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		436014FD1D24BFD000C3A17F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		436014FF1D24BFD000C3A17F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		436015001D24BFD000C3A17F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		436015031D24BFD000C3A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		436015051D24BFD000C3A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		436015081D24BFD000C3A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4360150A1D24BFD000C3A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4360150F1D24BFD000C3A17F /* HallOfFameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallOfFameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436015131D24BFD000C3A17F /* HallOfFameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HallOfFameTests.m; sourceTree = "<group>"; };
 		436015151D24BFD000C3A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4360151A1D24BFD000C3A17F /* HallOfFameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallOfFameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4360151E1D24BFD000C3A17F /* HallOfFameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HallOfFameUITests.m; sourceTree = "<group>"; };
 		436015201D24BFD000C3A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4360152D1D24F3EA00C3A17F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4360152E1D24F3EA00C3A17F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436015351D24F3EA00C3A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436015371D24F3EA00C3A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436015391D24F3EA00C3A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436015421D24F44700C3A17F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		436015441D24F78B00C3A17F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HallOfFame/Info.plist; sourceTree = "<group>"; };
+		436015461D24FB3E00C3A17F /* ConfigMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigMacros.h; sourceTree = "<group>"; };
 		62F72FDA941F9C8D1873CA52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				436014F81D24BFD000C3A17F /* HallOfFame */,
+				436015441D24F78B00C3A17F /* Info.plist */,
 				436015121D24BFD000C3A17F /* HallOfFameTests */,
 				4360151D1D24BFD000C3A17F /* HallOfFameUITests */,
 				436014F71D24BFD000C3A17F /* Products */,
@@ -108,14 +109,15 @@
 		436014F81D24BFD000C3A17F /* HallOfFame */ = {
 			isa = PBXGroup;
 			children = (
-				436014FC1D24BFD000C3A17F /* AppDelegate.h */,
-				436014FD1D24BFD000C3A17F /* AppDelegate.m */,
-				436014FF1D24BFD000C3A17F /* ViewController.h */,
-				436015001D24BFD000C3A17F /* ViewController.m */,
-				436015021D24BFD000C3A17F /* Main.storyboard */,
-				436015051D24BFD000C3A17F /* Assets.xcassets */,
-				436015071D24BFD000C3A17F /* LaunchScreen.storyboard */,
-				4360150A1D24BFD000C3A17F /* Info.plist */,
+				436015431D24F71000C3A17F /* Modules */,
+				4360152C1D24F3EA00C3A17F /* Application */,
+				4360152F1D24F3EA00C3A17F /* Base */,
+				436015301D24F3EA00C3A17F /* Categories */,
+				436015311D24F3EA00C3A17F /* Macros */,
+				436015331D24F3EA00C3A17F /* NetWork */,
+				436015341D24F3EA00C3A17F /* Resource */,
+				4360153A1D24F3EA00C3A17F /* Storage */,
+				4360153B1D24F3EA00C3A17F /* Vendors */,
 				436014F91D24BFD000C3A17F /* Supporting Files */,
 			);
 			path = HallOfFame;
@@ -145,6 +147,76 @@
 				436015201D24BFD000C3A17F /* Info.plist */,
 			);
 			path = HallOfFameUITests;
+			sourceTree = "<group>";
+		};
+		4360152C1D24F3EA00C3A17F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4360152D1D24F3EA00C3A17F /* AppDelegate.h */,
+				4360152E1D24F3EA00C3A17F /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4360152F1D24F3EA00C3A17F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		436015301D24F3EA00C3A17F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		436015311D24F3EA00C3A17F /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				436015421D24F44700C3A17F /* PrefixHeader.pch */,
+				436015461D24FB3E00C3A17F /* ConfigMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		436015331D24F3EA00C3A17F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		436015341D24F3EA00C3A17F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				436015351D24F3EA00C3A17F /* Assets.xcassets */,
+				436015361D24F3EA00C3A17F /* LaunchScreen.storyboard */,
+				436015381D24F3EA00C3A17F /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4360153A1D24F3EA00C3A17F /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4360153B1D24F3EA00C3A17F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		436015431D24F71000C3A17F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		50F578BC044C0EB61B439FD3 /* Frameworks */ = {
@@ -234,6 +306,12 @@
 				TargetAttributes = {
 					436014F51D24BFD000C3A17F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8S8D9B2HBH;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					4360150E1D24BFD000C3A17F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,9 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436015091D24BFD000C3A17F /* LaunchScreen.storyboard in Resources */,
-				436015061D24BFD000C3A17F /* Assets.xcassets in Resources */,
-				436015041D24BFD000C3A17F /* Main.storyboard in Resources */,
+				436015451D24F78B00C3A17F /* Info.plist in Resources */,
+				4360153F1D24F3EA00C3A17F /* Main.storyboard in Resources */,
+				4360153D1D24F3EA00C3A17F /* Assets.xcassets in Resources */,
+				4360153E1D24F3EA00C3A17F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436015011D24BFD000C3A17F /* ViewController.m in Sources */,
-				436014FE1D24BFD000C3A17F /* AppDelegate.m in Sources */,
+				4360153C1D24F3EA00C3A17F /* AppDelegate.m in Sources */,
 				436014FB1D24BFD000C3A17F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,20 +461,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		436015021D24BFD000C3A17F /* Main.storyboard */ = {
+		436015361D24F3EA00C3A17F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				436015031D24BFD000C3A17F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		436015071D24BFD000C3A17F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				436015081D24BFD000C3A17F /* Base */,
+				436015371D24F3EA00C3A17F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		436015381D24F3EA00C3A17F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436015391D24F3EA00C3A17F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,6 +498,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -464,6 +543,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -489,10 +569,15 @@
 			baseConfigurationReference = 352A6B8987AEE3DDCF068CC9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/HallOfFame/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = HallOfFame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JDTD.HallOfFame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -501,10 +586,15 @@
 			baseConfigurationReference = 05DAE3C85E847CC7E34B06EB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/HallOfFame/Macros/PrefixHeader.pch;
 				INFOPLIST_FILE = HallOfFame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JDTD.HallOfFame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

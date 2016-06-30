@@ -14,9 +14,12 @@
 
 @implementation AppDelegate
 
+#pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self configUmengAnalytics];
+    [self configBugly];
     return YES;
 }
 
@@ -40,6 +43,37 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - privateMethod
+/*!
+ *  @brief 配置友盟
+ */
+- (void)configUmengAnalytics{
+    [MobClick setLogEnabled:YES];
+    UMConfigInstance.appKey = UMAPPKey;
+    [MobClick startWithConfigure:UMConfigInstance];
+}
+
+/*!
+ *  @brief 配置Bugly
+ */
+- (void)configBugly{
+    BuglyConfig *config = [[BuglyConfig alloc] init];
+#if DEBUG
+    config.debugMode = YES;
+#endif
+    config.blockMonitorEnable = YES;
+    config.blockMonitorTimeout = 5.f;
+    config.reportLogLevel = BuglyLogLevelError | BuglyLogLevelWarn;
+    [Bugly startWithAppId:BuglyKey
+#if DEBUG
+        developmentDevice:YES
+     
+#endif
+                   config:config];
+    [Bugly setUserIdentifier:[NSString stringWithFormat:@"User: %@", [UIDevice currentDevice].name]];
+    [Bugly setUserValue:[NSProcessInfo processInfo].processName forKey:@"App"];
 }
 
 @end
