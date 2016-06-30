@@ -58,11 +58,13 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SSKeychain/Support/en.lproj"
   install_resource "${BUILT_PRODUCTS_DIR}/Appirater.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SSKeychain/Support/en.lproj"
   install_resource "${BUILT_PRODUCTS_DIR}/Appirater.bundle"
